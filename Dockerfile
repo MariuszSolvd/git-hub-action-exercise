@@ -1,6 +1,6 @@
 FROM node:16
 
-COPY . .
+COPY src .
 
 RUN npm install
 
